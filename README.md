@@ -31,7 +31,7 @@ To install DNS Server, firstly, update your machine and then, install `bind9` an
 
 `dnsutils` is a very useful package for testing and troubleshooting DNS issues.
 
-![](./assests/BINCOM/2.png)
+![](./assets/BINCOM/2.png)
 
 ## **Configuration**
 
@@ -46,7 +46,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
         3.85.25.173; # IP Addresses of actual nameservers
         };
 
-    ![](./assests/BINCOM/3.png)
+    ![](./assets/BINCOM/3.png)
   
 - ## **Primary server:** 
   
@@ -61,7 +61,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
                 file "/etc/bind/db.example.com";
             };
 
-        ![](./assests/BINCOM/4.png)
+        ![](./assets/BINCOM/4.png)
 
     - Now use an existing zone file as a template to create the `/etc/bind/db.example.com` file:
 
@@ -84,7 +84,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
             @       IN      A       3.85.25.173
             @       IN      AAAA    ::1
 
-      ![](./assests/BINCOM/5.png)
+      ![](./assets/BINCOM/5.png)
 
          BIND9 needs to be restarted for the changes to take effect:
 
@@ -101,7 +101,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
                 file "/etc/bind/db.192";
             };
 
-        ![](./assests/BINCOM/7.png)
+        ![](./assets/BINCOM/7.png)
 
         Create the `/etc/bind/db.192` file:
 
@@ -123,7 +123,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
             @       IN      NS      ns.
             10      IN      PTR     ns.example.com.
 
-        ![](./assests/BINCOM/6.png)
+        ![](./assets/BINCOM/6.png)
 
         Restart BIND9:
 
@@ -168,7 +168,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
             masters { 3.85.25.173; };
         };
 
-    ![](./assests/BINCOM/8.png)
+    ![](./assets/BINCOM/8.png)
 
     Restart BIND9:
 
@@ -181,7 +181,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
 
         ping example.com
 
-    ![](./assests/BINCOM/test-1.png)
+    ![](./assets/BINCOM/test-1.png)
 
 - ## **named-checkzone**
   A great way to test your zone files is by using the named-checkzone utility installed with the bind9 package. This utility allows you to make sure the configuration is correct before restarting BIND9 and making the changes live.
@@ -204,7 +204,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
     zone 1.168.192.in-addr.arpa/IN: loaded serial 3
     OK
 
-    ![](./assests/BINCOM/test-2.png)
+    ![](./assets/BINCOM/test-2.png)
 
 
 ## **Credits**
