@@ -67,7 +67,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
 
             sudo cp /etc/bind/db.local /etc/bind/db.example.com
 
-    - Edit the new zone file `/etc/bind/db.example.com` and change localhost. to the FQDN of your server, leaving the additional . at the end. Change 127.0.0.1 to the nameserver’s IP Address and root.localhost to a valid email address, but with a . instead of the usual @ symbol, again leaving the . at the end. Change the comment to indicate the domain that this file is for. Create an A record for the base domain, example.com. Also, create an A record for ns.example.com, the name server in this example:
+    - Edit the new zone file `/etc/bind/db.example.com` and change localhost. to the Fully qualified domain name (FQDN) of your server, leaving the additional . at the end. Change 127.0.0.1 to the nameserver’s IP Address and root.localhost to a valid email address, but with a . instead of the usual @ symbol, again leaving the . at the end. Change the comment to indicate the domain that this file is for. Create an A record for the base domain, example.com. Also, create an A record for ns.example.com, the name server in this example:
 
                 ;
             ; BIND data file for example.com
