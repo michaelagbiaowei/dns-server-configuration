@@ -1,12 +1,3 @@
-## **Requirements to install DNS and Mail Server**
-
-- Ubuntu 20.04 0r higher
-- mutt
-- mailutils
-- ssmtp
-- bind9
-- dnsutils
-
 ## **Domain Name Service (DNS)**
 
 DNS servers are computers that store and manage DNS records. These records contain the IP addresses associated with domain names. When a user types a domain name into a web browser, the browser sends a query to a DNS server. The DNS server then returns the IP address for the domain name, and the browser uses this address to connect to the website.
@@ -20,6 +11,15 @@ Here are some additional details about DNS:
 - DNS is a distributed system. This means that there are many DNS servers located all over the world. When a user types a domain name into a web browser, the browser will query the closest DNS server to its location.
   
 - DNS is a critical part of the internet. Without DNS, it would be impossible for users to access websites and other online resources by typing in familiar names.
+
+# **Requirements to install DNS and Mail Server**
+
+- Ubuntu 20.04 0r higher
+- mutt
+- mailutils
+- ssmtp
+- bind9
+- dnsutils
 
 ## **Installatioon**
 
