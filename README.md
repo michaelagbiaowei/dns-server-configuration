@@ -1,3 +1,5 @@
+## **How to Install and Set Up Ubuntu DNS Server on Version 20.04 LTS 0r higher**
+
 ## **Domain Name Service (DNS)**
 
 DNS servers are computers that store and manage DNS records. These records contain the IP addresses associated with domain names. When a user types a domain name into a web browser, the browser sends a query to a DNS server. The DNS server then returns the IP address for the domain name, and the browser uses this address to connect to the website.
@@ -203,6 +205,11 @@ BIND9 can be configured in many ways to meet the needs of different organization
     OK
 
     ![](./assests/BINCOM/test-2.png)
+
+
+## **Credits**
+
+<a href="https://ubuntu.com/server/docs/service-domain-name-service-dns"><b>Ubuntu Server tutorials</b></a>
 
 
 
