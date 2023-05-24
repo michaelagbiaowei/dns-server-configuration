@@ -1,4 +1,4 @@
-## **How to Install and Set Up DNS Server on Ubuntu Version 20.04 LTS 0r higher**
+## **How to Install and Set Up DNS Server on Ubuntu Version 20.04 LTS 0r Higher**
 
 ## **Domain Name Service (DNS)**
 
