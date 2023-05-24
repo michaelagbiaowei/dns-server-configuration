@@ -17,9 +17,6 @@ Here are some additional details about DNS:
 # **Requirements to install DNS and Mail Server**
 
 - Ubuntu 20.04 0r higher
-- mutt
-- mailutils
-- ssmtp
 - bind9
 - dnsutils
 
