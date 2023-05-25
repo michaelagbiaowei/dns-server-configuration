@@ -20,7 +20,7 @@ Here are some additional details about DNS:
 - bind9
 - dnsutils
 
-## **Installatioon**
+## **Step 1: Installatioon**
 
 To install DNS Server, firstly, update your machine and then, install `bind9` and `dnsutils` using the following command:
 
@@ -30,7 +30,7 @@ To install DNS Server, firstly, update your machine and then, install `bind9` an
 
 ![](./assets/BINCOM/2.png)
 
-## **Configuration**
+## **Step 2: Configuration**
 
 BIND9 can be configured in many ways to meet the needs of different organizations. Some of the most common configurations are:
 
@@ -171,7 +171,7 @@ BIND9 can be configured in many ways to meet the needs of different organization
 
         sudo systemctl restart bind9.service
 
-## **Testing**
+## **Step 3: Testing**
 
 - ## **ping**
   Use the ping utility to send an ICMP echo request:
