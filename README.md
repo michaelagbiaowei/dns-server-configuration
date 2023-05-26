@@ -18,7 +18,7 @@ Here are some additional details about DNS:
 
 - Ubuntu 20.04 0r higher
 
-## **Step 1: Installatioon**
+## **Step 1: Installation**
 
 To install DNS Server, firstly, update your machine and then, install `bind9` and `dnsutils` using the following command:
 
