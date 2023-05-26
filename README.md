@@ -17,8 +17,6 @@ Here are some additional details about DNS:
 # **Requirements to install DNS Server**
 
 - Ubuntu 20.04 0r higher
-- bind9
-- dnsutils
 
 ## **Step 1: Installatioon**
 
