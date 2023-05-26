@@ -14,7 +14,7 @@ Here are some additional details about DNS:
   
 - DNS is a critical part of the internet. Without DNS, it would be impossible for users to access websites and other online resources by typing in familiar names.
 
-# **Requirements to install DNS and Mail Server**
+# **Requirements to install DNS Server**
 
 - Ubuntu 20.04 0r higher
 - bind9
