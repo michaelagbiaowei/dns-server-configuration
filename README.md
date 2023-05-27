@@ -22,7 +22,7 @@ Here are some additional details about DNS:
 
 To install DNS Server, firstly, update your machine and then, install `bind9` and `dnsutils` using the following command:
 
-    sudo apt update; sudo apt isnatll bind9 -y; sudo apt install dnsutils -y
+    sudo apt update; sudo apt install bind9 -y; sudo apt install dnsutils -y
 
 `dnsutils` is a very useful package for testing and troubleshooting DNS issues.
 
